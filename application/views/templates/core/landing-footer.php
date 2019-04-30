@@ -1,9 +1,9 @@
 <?php
-	$m_navigation_class  =  new Navigation  (  );
-	$m_footer  =  $m_navigation_class  ->  SiteFooter  (  );
+$m_navigation_class = new Navigation();
+$m_footer           = $m_navigation_class->SiteFooter();
 ?>
 </div>
-<?php echo $m_footer;?>
+<?php echo $m_footer; ?>
 
 <!-- Java script-->
 
