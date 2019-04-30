@@ -1,0 +1,34 @@
+.block1_count {
+	behavior: url(js/PIE.htc);
+	position: relative;
+}
+
+
+
+#form .invalid .error-message, 
+#form .empty .empty-message {
+	display: block;
+
+}
+
+#form .error-message, 
+#form .empty-message {
+	display: none;
+}
+
+
+.tmSelect2:after {
+	background: #686868 !important; 
+}
+
+#search a:hover  {
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+.gallery_item .gallery_caption {
+	display: none;
+}
+
+.gallery_item:hover .gallery_caption {
+	display: block;
+}

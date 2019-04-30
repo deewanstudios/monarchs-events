@@ -1,0 +1,396 @@
+.navigation
+
+{
+	z-index : 999;
+
+	float : left;
+
+	position : relative;
+
+	padding : 37px 0 33px;
+
+}
+
+.navigation .sf-menu
+
+{
+	z-index : 990;
+
+	text-align : left;
+
+	position : relative;
+
+}
+
+nav
+
+{
+	position : relative;
+
+	padding : 0;
+
+	font-family : 'Inder' , sans-serif;
+
+}
+
+.sf-menu ul
+
+{
+	position : absolute;
+
+	top : -999px;
+
+	display : none;
+
+}
+
+.sf-menu > li
+
+{
+	display : block;
+
+	position : relative;
+
+	float : left;
+
+	font-size : 14px;
+
+	line-height : 30px;
+
+	-moz-box-sizing : border-box;
+
+	-webkit-box-sizing : border-box;
+
+	-o-box-sizing : border-box;
+
+	box-sizing : border-box;
+
+}
+
+.sf-menu > li+ li
+
+{
+	margin-left : 28px;
+
+}
+
+.sf-menu > li > ul > li
+
+{
+	float : none;
+
+	position : static;
+
+}
+
+.sf-menu > li > a
+
+{
+	position : relative;
+
+	text-transform : uppercase;
+
+	color : #fff;
+
+	display : block;
+
+	padding : 0.5em 1em;
+
+	letter-spacing : 0.06em;
+
+}
+
+.sf-menu > li.sfHover > a , .sf-menu > li.current > a , .sf-menu > li > a:hover
+
+{
+	/*color : #f37a30;*/
+	color : #1d1d1d;
+
+	/*background-color : #927C67;*/
+	/*background-color : #f4e487;*/
+	/*background-color : #f4e485;*/
+	/*background-color : #897343;*/
+	background-color : rgba(224,202,143,1);
+
+	/*padding: .5em;*/
+}
+
+.sf-menu > li.current > a.sf-with-ul:after , .sf-menu > li.sfHover > a.sf-with-ul:after
+
+{
+	background-position : 0 0;
+
+	/*background-color : rgba(224,202,143,1);*/
+
+}
+
+.sf-menu > li > ul > li > a.sf-with-ul:after
+
+{
+	content : '';
+
+	font-family : 'FontAwesome';
+
+	position : absolute;
+
+	width : 5px;
+
+	font-size : 13px;
+
+	line-height : 13px;
+
+	font-weight : normal;
+
+	right : 20px;
+
+	color : #fff;
+
+	bottom : 12px;
+
+	pointer-events : none;
+
+	z-index : 999;
+
+}
+
+.sf-menu > li > a.sf-with-ul:after
+
+{
+	content : '';
+
+	font-family : 'FontAwesome';
+
+	position : absolute;
+
+	width : 5px;
+
+	font-size : 13px;
+
+	line-height : 13px;
+
+	font-weight : normal;
+
+	right : 47px;
+
+	color : #fff;
+
+	bottom : -20px;
+
+	pointer-events : none;
+
+	z-index : 999;
+
+}
+
+/*================================>> 2 Level
+ * <<========================================*/
+.sf-menu > li ul
+
+{
+	left : 50%;
+
+	margin-left : -52px;
+
+	z-index : 999;
+
+	width : 105px;
+
+	padding-top : 16px;
+
+	/*background-color : #0c0c0c;*/
+	background-color : rgba(0,0,0,.5);
+
+	/*background-color : rgba(224,202,143,1);*/
+
+	top : 77px;
+
+	padding-bottom : 18px;
+
+	background : url(../images/menu_bg.png) 0 0 repeat;
+
+}
+
+.sf-menu li ul li
+
+{
+	position : relative;
+
+	text-align : left;
+
+	float : none !important;
+
+	text-transform : uppercase;
+
+	/*font : 12px/34px Arial , "Helvetica Neue" , Helvetica , sans-serif;*/
+
+	padding : 0 12px;
+
+}
+
+.sf-menu li ul li+ li
+
+{
+	/*padding: .5em;*/
+}
+
+.sf-menu li ul li+ li+ li
+
+{
+}
+
+.sf-menu li ul li a
+
+{
+	position : static;
+
+	z-index : 999;
+
+	color : #fff;
+
+	font-weight : normal;
+
+}
+
+.sf-menu li li a:hover , .sf-menu li.sfHover li.sfHover > a
+
+{
+	text-decoration : underline;
+
+}
+
+/*================================>> 3 Level
+ * <<========================================*/
+.sf-menu > li ul li ul
+
+{
+	position : absolute;
+
+	left : 158px;
+
+	width : 100px;
+
+	padding : 4px 0 3px;
+
+	top : 3px;
+
+	background-color : #f37e31;
+
+}
+
+.sf-menu li ul ul li
+
+{
+	padding-left : 15px;
+
+	line-height : 30px;
+
+}
+
+.sf-menu li ul ul li a:hover
+
+{
+	font-weight : normal;
+
+	color : #010101;
+
+	text-decoration : none;
+
+}
+
+/*==================================RESPONSIVE
+ * LAYOUTS===============================================*/
+
+@media only screen and (max-width : 995px)
+
+{
+
+	.sf-menu > li+ li
+
+
+	{
+		margin-left : 15px;
+
+	}
+
+}
+
+@media only screen and (max-width : 768px)
+
+{
+	.navigation
+
+
+	{
+		float : none !important;
+
+		padding : 20px 0px 20px !important;
+
+		clear : both;
+
+		margin : 0;
+
+		min-height : 0px;
+
+	}
+
+	.navigation  nav
+
+
+	{
+		border : none !important;
+
+		float : none !important;
+
+		font : 12px/15px Arial , Helvetica , sans-serif;
+
+		text-transform : uppercase;
+
+		color : #927c67;
+
+		margin : 0 auto;
+
+		padding-left : 0 !important;
+
+	}
+
+	header nav ul
+
+
+	{
+		border : none;
+
+	}
+
+	.sf-menu
+
+
+	{
+		display : none !important;
+
+		float : none;
+
+	}
+
+	.select-menu
+
+
+	{
+		font : 12px/15px Arial , Helvetica , sans-serif;
+
+		color : #202020;
+
+		width : 100%;
+
+		margin : 0 auto;
+
+		float : none;
+
+		outline : none;
+
+		display : block !important;
+
+		border : 2px solid #fff;
+
+	}
+
+}

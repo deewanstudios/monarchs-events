@@ -1,0 +1,15 @@
+.gallery-section {
+  width: 100%;
+  /*border: 1px solid red;*/
+  margin: 0px auto;
+}
+.gallery-section, .album_item {
+
+  /*padding: 6px;*/
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+

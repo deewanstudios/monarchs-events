@@ -1,0 +1,16 @@
+,monarchs-events-01,,,services-tab,monarchs-events-01.jpg,1,1
+,monarchs-events-02,,,services-tab,monarchs-events-02.jpg,1,1
+,monarchs-events-03,,,general,monarchs-events-03.jpg,1,1
+,monarchs-events-04,,,slider,monarchs-events-04.jpg,1,7
+,monarchs-events-05,,,slider,monarchs-events-05.jpg,1,7
+,monarchs-events-06,,,slider,monarchs-events-06.jpg,1,7
+,monarchs-events-07,,,slider,monarchs-events-07.jpg,1,7
+,monarchs-events-08,,,slider,monarchs-events-08.jpg,1,7
+,monarchs-events-09,,,slider,monarchs-events-09.jpg,1,7
+,monarchs-events-10,,,slider,monarchs-events-10.jpg,1,7
+,monarchs-events-11,,,services-tab,monarchs-events-11.jpg,1,1
+,monarchs-events-12,,,services-tab,monarchs-events-12.jpg,1,1
+,monarchs-events-13,,,services-tab,monarchs-events-13.jpg,1,1
+,monarchs-events-14,,,services-tab,monarchs-events-14.jpg,1,1
+,monarchs-events-15,,,services-tab,monarchs-events-15.jpg,1,1
+,monarchs-events-16,,,services-tab,monarchs-events-16.jpg,1,1
